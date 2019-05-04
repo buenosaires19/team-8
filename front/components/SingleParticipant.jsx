@@ -4,7 +4,7 @@ import Image from 'react-bootstrap/Image'
 
 const SingleParticipant = () => {
     return (
-        <div className='singleParticipant'>
+        <div className='singleParticipant borderSingle' >
             <div className='firstRow'>
             <div></div>
                 <div>
