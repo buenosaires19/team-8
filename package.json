@@ -21,6 +21,7 @@
     "babel-loader": "^8.0.5"
   },
   "dependencies": {
+    "anychart-react": "^1.4.1",
     "express": "^4.16.4",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",

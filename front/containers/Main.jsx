@@ -9,6 +9,8 @@ import FormCandidata from '../components/formCandidata';
 import Home from '../components/Home';
 import FormCalendar from '../components/formCalendar';
 import Navbar from '../components/Navbar';
+import SingleParticipant from '../components/SingleParticipant';
+
 
 class Main extends React.Component {
     constructor(props) {
@@ -28,6 +30,7 @@ class Main extends React.Component {
                     <Route exact path="/formRegister" render={({history}) => (<FormPostulacion history={history} />)} />
                     <Route exact path="/" render={() => (<Home />)} />
                     <Route exact path="/formCalendar" render={() => (<FormCalendar />)} /> 
+                    <Route exact path="/singleParticipant" render={() => (<SingleParticipant />)} /> 
 
 
                 </Switch>
