@@ -1,3 +1,42 @@
 *{
     box-sizing: border-box;
 }
+.divDestacada{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    background-color: #FF5A5F;
+}
+.text{
+    color: white;
+    display: grid;
+    grid-template-rows: 0.2fr 0.3fr 1fr 0.1fr;
+}
+.quote{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.name{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 80px;
+}
+.field{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #6300a8;
+    border-color: #6300a8;
+}
+.btn-outline-primary{
+    color: #6300a8;
+    background-color: #fff ;
+    border-color: #fff;
+}
+#button{
+    width: 150px;
+    margin-right: 10px; 
+    justify-self: end;
+
+}
