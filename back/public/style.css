@@ -6,14 +6,16 @@
     display: block;
     width: 80%;
     margin: 40px auto;
-    padding: 20px;
+    padding: 30px;
+    border: 2px solid #5CCFC7;
+    border-radius: 20px;
 }
 
 .underLine{
     border-bottom: 1px solid #5CCFC7;
 }
 
-h3{
+.h3Form{
     font-size: 2em;
     color: #5CCFC7;
     margin: 20px 10px;
@@ -33,7 +35,7 @@ h3{
     background-color: #5CCFC7;
     padding: 15px;
     width: 50%;
-    margin: 10px auto;
+    margin: 30px 10% 30px 35% ;
     border: 1px solid #5CCFC7;
 }
 
@@ -52,14 +54,21 @@ h3{
 
 .divDestacada{
     padding: 30px;
+    margin: 0px 20px;
     display: grid;
     grid-template-columns: 0.7fr 1fr;
     background-color: #FF5A5F;
 }
 .text{
+    margin-left: 20px;
     color: white;
     display: grid;
     grid-template-rows: 0.2fr 0.3fr 1fr 0.1fr;
+}
+.image{
+    margin-right: 20px;
+    justify-self: center;
+
 }
 .quote{
     margin-top: 10px;
@@ -84,9 +93,10 @@ h3{
     border-color: #fff;
 }
 #button{
-    width: 150px;
+    width: 200px;
     margin-right: 10px; 
     justify-self: end;
+    font-size: 20px;
 
 }
 .areaCalendar{
@@ -104,4 +114,52 @@ h3{
 .mesCalendar{
     font-size: 1.3em;
     color: #5CCFC7;
+}
+.cardImg{
+    align-self: center;
+    width: 200px;
+    height: 200px;
+}
+.card{
+    border: none;
+    background-color: #5CCFC7;
+}
+.divCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center; 
+    background-color: #5CCFC7;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+.cards{
+    width: 75%;
+    height: 400px;
+}
+.cardText{
+    margin-bottom: 0px;
+    text-align:center
+}
+.carousel-control-prev{
+    width: 100px
+}
+.carousel-control-next{
+    width: 100px
+}
+.card-title{
+    text-align: center
+}
+.linkContainer{
+    text-align: center;
+}
+
+.link{
+    display: inline-block
+}
+}
+
+.formSpacing{
+    margin: 15px;
 }
