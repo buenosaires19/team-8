@@ -1,52 +1,25 @@
 import React from 'react';
-import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
+import { generateKeyPair } from 'crypto';
 
 const SocialButtonsPage = () => {
   return (
-    <MDBContainer>
-      <MDBBtn size="lg" tag="a" floating social="fb">
-        <MDBIcon fab icon="facebook-f" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="tw">
-        <MDBIcon fab icon="twitter" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="gplus">
-        <MDBIcon fab icon="google-plus-g" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="li">
-        <MDBIcon fab icon="linkedin-in" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="ins">
-        <MDBIcon fab icon="instagram" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="pin">
-        <MDBIcon fab icon="pinterest" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="yt">
-        <MDBIcon fab icon="youtube" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="vk">
-        <MDBIcon fab icon="vk" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="so">
-        <MDBIcon fab icon="stack-overflow" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="slack">
-        <MDBIcon fab icon="slack" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="git">
-        <MDBIcon fab icon="github" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="comm">
-        <MDBIcon icon="comments" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="email">
-        <MDBIcon icon="envelope" />
-      </MDBBtn>
-      <MDBBtn size="lg" tag="a" floating social="dribbble">
-        <MDBIcon icon="dribbble" />
-      </MDBBtn>
-    </MDBContainer>
+    <div style={{
+      display: "grid",
+      gridTemplateColumns:'1fr 1fr 1fr',
+      padding:'20px',
+      borderTop:'1px solid #FF5A5F',
+      marginTop:'30px'
+    }}>
+      <a target='_blank' href="https://www.facebook.com/chicasentecnologia/" style={{textAlign:'center'}}><img src="/facebook.png" style={{
+      width:'12%'
+      }}/></a>
+      <a target='_blank' href="https://www.instagram.com/chicasentec/?hl=es/" style={{textAlign:'center'}}><img src="/instagram.png" style={{
+      width:'12%'
+      }}/></a>
+      <a target='_blank' href="https://twitter.com/chicasentec?lang=es" style={{textAlign:'center'}}><img src="/twiter.png" style={{
+      width:'17%'
+      }}/></a>
+    </div> 
   );
 }
 

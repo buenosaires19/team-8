@@ -54,7 +54,7 @@ class formPostulacion extends React.Component {
 
                 <div >
                     <label><span className='camposTag'>Provincia</span></label>
-                    <select multiple className='form-control'>
+                    <select className='form-control'>
                         <option> Buenos Aires </option>
                         <option> Catamarca </option>
                         <option> Chaco </option>
