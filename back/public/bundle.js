@@ -103,12 +103,138 @@ var calendar = function calendar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "tercios"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "mesIndividual"
-  }, "SOY EL MES DE JUNIO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "mesIndividual"
-  }, "SOY EL MES DE JULIO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "mesIndividual"
-  }, "SOY EL MES DE AGOSTO"));
+    className: "elementor-element elementor-element-2e5n9ie elementor-column elementor-col-33 elementor-inner-column",
+    "data-id": "2e5n9ie",
+    "data-element_type": "column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-column-wrap  elementor-element-populated"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-wrap"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-a56749j elementor-widget elementor-widget-text-editor",
+    "data-id": "a56749j",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Junio 2019"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-wknypvn elementor-widget elementor-widget-text-editor",
+    "data-id": "wknypvn",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "POR AMOR"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-emzqsb8 elementor-widget elementor-widget-text-editor",
+    "data-id": "emzqsb8",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "recepci\xF3n de propuestas hasta")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-uqzcsi9 elementor-widget elementor-widget-text-editor",
+    "data-id": "uqzcsi9",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "15/05/19"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "elementor-element elementor-element-2e5n9ie elementor-column elementor-col-33 elementor-inner-column",
+    "data-id": "2e5n9ie",
+    "data-element_type": "column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-column-wrap  elementor-element-populated"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-wrap"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-a56749j elementor-widget elementor-widget-text-editor",
+    "data-id": "a56749j",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Julio 2019"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-wknypvn elementor-widget elementor-widget-text-editor",
+    "data-id": "wknypvn",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "POR AMOR"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-emzqsb8 elementor-widget elementor-widget-text-editor",
+    "data-id": "emzqsb8",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "recepci\xF3n de propuestas hasta")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-uqzcsi9 elementor-widget elementor-widget-text-editor",
+    "data-id": "uqzcsi9",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "15/05/19"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "elementor-element elementor-element-2e5n9ie elementor-column elementor-col-33 elementor-inner-column",
+    "data-id": "2e5n9ie",
+    "data-element_type": "column"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-column-wrap  elementor-element-populated"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-wrap"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-a56749j elementor-widget elementor-widget-text-editor",
+    "data-id": "a56749j",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Agosto 2019"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-wknypvn elementor-widget elementor-widget-text-editor",
+    "data-id": "wknypvn",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "POR AMOR"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-emzqsb8 elementor-widget elementor-widget-text-editor",
+    "data-id": "emzqsb8",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "recepci\xF3n de propuestas hasta")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-element elementor-element-uqzcsi9 elementor-widget elementor-widget-text-editor",
+    "data-id": "uqzcsi9",
+    "data-element_type": "widget",
+    "data-widget_type": "text-editor.default"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-widget-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "elementor-text-editor elementor-clearfix"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "15/05/19"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (calendar);
