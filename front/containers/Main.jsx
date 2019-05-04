@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import FormPostulacion from '../components/formPostulacion';
 import Destacada from '../components/Destacada';
+import Finalistas from '../components/Finalistas';
 
 class Main extends React.Component {
     constructor(props) {
@@ -16,6 +17,7 @@ class Main extends React.Component {
                 <Switch>
                     <Route exact path="/formRegister" render={() => (<FormPostulacion />)} />
                     <Route exact path="/destacada" render={() => (<Destacada />)} />
+                    <Route exact path="/finalistas" render={() => (<Finalistas />)} />
 
                 </Switch>
             </div>
