@@ -5,7 +5,6 @@ const calendar = () => (
 
 
     <div className="calendarDiv">
-        <h1>Calendario </h1>
         <Row>
             <Col>
                     <div className="tercioCalendario">
