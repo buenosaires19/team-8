@@ -166,8 +166,26 @@
 .link{
     display: inline-block
 }
-}
 
 .formSpacing{
     margin: 15px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 65px;
+    background-color: #6300A8
+}
+.linkText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #608FC4;
+    /* height: 60px; */
+}
+.linkText:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff
 }
