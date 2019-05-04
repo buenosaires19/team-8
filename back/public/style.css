@@ -50,36 +50,42 @@ h3{
     grid-template-columns: 1fr 0.3fr;
 }
 
-/* .modal {
-    font-size: 12px;
-  }
-  .modal > .header {
-    width: 100%;
-    border-bottom: 1px solid gray;
-    font-size: 18px;
-    text-align: center;
-    padding: 5px;
-  }
-  .modal > .content {
-    width: 100%;
-    padding: 10px 5px;
-  }
-  .modal > .actions {
-    width: 100%;
-    padding: 10px 5px;
-    margin: auto;
-    text-align: center;
-  }
-  .modal > .close {
-    cursor: pointer;
-    position: absolute;
-    display: block;
-    padding: 2px 5px;
-    line-height: 20px;
-    right: -10px;
-    top: -10px;
-    font-size: 24px;
-    background: #ffffff;
-    border-radius: 18px;
-    border: 1px solid #cfcece;
-  } */
+.divDestacada{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    background-color: #FF5A5F;
+}
+.text{
+    color: white;
+    display: grid;
+    grid-template-rows: 0.2fr 0.3fr 1fr 0.1fr;
+}
+.quote{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.name{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 80px;
+}
+.field{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #6300a8;
+    border-color: #6300a8;
+}
+.btn-outline-primary{
+    color: #6300a8;
+    background-color: #fff ;
+    border-color: #fff;
+}
+#button{
+    width: 150px;
+    margin-right: 10px; 
+    justify-self: end;
+
+}

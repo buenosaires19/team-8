@@ -1,6 +1,6 @@
 import React from 'react';
 
-const formPostulacion = () => (
+const formPostulacion = (props) => (
     <div >
         <div className='formStlyes'>
                 {/* <h1></h1> */}
@@ -68,7 +68,10 @@ const formPostulacion = () => (
                     <input className="form-control" type="textarea" style={{height:'20vh'}}/>
                 </div>
                 <div className='centerButton'>    
-                <button id='botonEstilos' onClick={() => alert('Se ha guardado la postulación correctamente!')}>POSTULA!</button>
+                <button id='botonEstilos' onClick={() => {
+                    alert('Se ha guardado la postulación correctamente!')
+                    props.history.push('/')
+                }}>POSTULA!</button>
                 </div>
         </div>
     </div >

@@ -1,0 +1,43 @@
+{
+    "1":{"image":"https://upload.wikimedia.org/wikipedia/commons/2/21/Retrato_Cecilia_Grierson.jpg",
+    "name":"Cecilia Grierson",
+    "title":"Medica",
+    "exp":{
+        "1":"Medica",
+        "2":"Profesora",
+        "3":"Filantropa"
+    },
+    "video":""},
+
+    "2":{"image":"https://www.bienmesabe.org/revista_uploads/AlfosinaStorni.jpg",
+        "name":"Alfonsina Storni",
+        "title":"Escritora",
+        "exp":{
+            "1":"Diarista",
+            "2":"Poeta",
+            "3":"Periodista",
+            "4":"Escritora",
+            "5":"Profesora"
+        },
+        "video":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1IR53U3fThU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"},
+
+     "3":{"image":"https://upload.wikimedia.org/wikipedia/commons/f/f5/Moreau_de_Justo-Panorama--27ABR1972.gif",
+    "name":"Alicia Moreau de Justo",
+    "title":"Politica",
+    "exp":{
+        "1":"Medica",
+        "2":"Politica"
+    },
+    "video":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/otUk9s78n5M\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"},
+
+    "4":{"image":"https://upload.wikimedia.org/wikipedia/commons/4/41/Blackie_1946.jpg",
+        "name":"Paloma Efron",
+        "title":"Conductora",
+        "exp":{
+            "1":"Cantante",
+            "2":"Periodista",
+            "3":"Conductora"
+        },
+        "video":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2wSnkoGewl0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    }
+}
