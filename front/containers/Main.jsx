@@ -5,8 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import FormPostulacion from '../components/formPostulacion';
 import FormCandidata from '../components/formCandidata';
 import Home from '../components/Home';
-import FormCalendar from '../components/formCalendar'
-import SingleCandidate from '../components/SingleCandidate';
+import FormCalendar from '../components/formCalendar';
 import Navbar from '../components/Navbar';
 
 class Main extends React.Component {
@@ -17,6 +16,7 @@ class Main extends React.Component {
     render() {
         return (
             <div>
+                <Navbar/>
                 {/* <BtnPost/> */}
                 {/* <Home/> */}
                 <Switch>
