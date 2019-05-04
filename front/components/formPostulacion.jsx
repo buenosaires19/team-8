@@ -70,6 +70,7 @@ const formPostulacion = (props) => (
             <div className='centerButton'>
                 <button id='botonEstilos' onClick={() => {
                     alert('Se ha guardado la postulación correctamente!')
+                    
                     props.history.push('/')
                 }}>POSTULA!</button>
             </div>

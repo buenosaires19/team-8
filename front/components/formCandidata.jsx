@@ -1,8 +1,11 @@
 import React from 'react';
 
+import BtnHeader from './headerBtn';
+
 const formCandidata = (props) => (
     <div>
-        <div className='formStlyes'>
+        <BtnHeader/> 
+              <div className='formStlyes'>
             <h3> Información personal </h3>
             <p> </p>
             <div className='formSpacing'>
