@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "webpack -w & nodemon ./back/index.js"
+    "start": "webpack -w & nodemon ./back/index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,12 @@
   "devDependencies": {
     "nodemon": "^1.19.0",
     "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1"
+    "webpack-cli": "^3.3.1",
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5"
   },
   "dependencies": {
     "react": "^16.8.6",
