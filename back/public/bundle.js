@@ -86,6 +86,35 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./front/components/formCalendar.jsx":
+/*!*******************************************!*\
+  !*** ./front/components/formCalendar.jsx ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var calendar = function calendar() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "tercios"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mesIndividual"
+  }, "SOY EL MES DE JUNIO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mesIndividual"
+  }, "SOY EL MES DE JULIO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mesIndividual"
+  }, "SOY EL MES DE AGOSTO"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (calendar);
+
+/***/ }),
+
 /***/ "./front/components/formPostulacion.jsx":
 /*!**********************************************!*\
   !*** ./front/components/formPostulacion.jsx ***!
@@ -120,6 +149,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _components_formPostulacion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/formPostulacion */ "./front/components/formPostulacion.jsx");
+/* harmony import */ var _components_formCalendar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/formCalendar */ "./front/components/formCalendar.jsx");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -142,6 +172,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
 var Main =
 /*#__PURE__*/
 function (_React$Component) {
@@ -158,9 +189,9 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         exact: true,
-        path: "/formRegister",
+        path: "/calendar",
         render: function render() {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_formPostulacion__WEBPACK_IMPORTED_MODULE_2__["default"], null);
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_formCalendar__WEBPACK_IMPORTED_MODULE_3__["default"], null);
         }
       })));
     }
@@ -24605,7 +24636,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

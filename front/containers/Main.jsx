@@ -3,6 +3,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import FormPostulacion from '../components/formPostulacion';
+import FormCalendar from '../components/formCalendar';
 
 class Main extends React.Component {
     constructor(props) {
@@ -13,7 +14,7 @@ class Main extends React.Component {
         return (
             <div>
                 <Switch>
-                    <Route exact path="/formRegister" render={() => (<FormPostulacion />)} />
+                    <Route exact path="/calendar" render={() => (<FormCalendar />)} />
 
                 </Switch>
             </div>
