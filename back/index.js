@@ -11,3 +11,5 @@ app.listen(app.get('port'))
 app.get('/',(req,res)=>{
     res.send('Hello World')
 })
+
+app.use(express.static(path.resolve(__dirname, 'public')));
