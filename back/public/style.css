@@ -171,3 +171,23 @@
 .formSpacing{
     margin: 15px;
 }
+.ProfileComplete {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center; 
+    padding-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+  }
+  .PicAndText {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    align-items: center;
+    justify-items: center; 
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    text-align : center;
+  }
+
