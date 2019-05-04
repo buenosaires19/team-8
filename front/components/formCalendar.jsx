@@ -15,7 +15,7 @@ const calendar = () => (
 
 
                         <p>
-                            <strong className='areaCalendar'>Ingeniería Electrónica</strong>
+                            <strong className='areaCalendar'>Ingeniería Naval</strong>
                         </p>
 
 
@@ -38,7 +38,7 @@ const calendar = () => (
                             </p>
                         
                             <p>
-                                <strong className='areaCalendar'>Mecánica</strong>
+                                <strong className='areaCalendar'>Software Engineering</strong>
                             </p>
                         
                             <p>recepción de propuestas hasta</p>

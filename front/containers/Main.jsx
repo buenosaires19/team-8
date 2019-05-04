@@ -5,6 +5,8 @@ import { Switch, Route } from 'react-router-dom';
 import FormPostulacion from '../components/formPostulacion';
 import FormCandidata from '../components/formCandidata';
 import Home from '../components/Home';
+import Navbar from '../components/Navbar';
+import Footer from '../components/footer';
 
 class Main extends React.Component {
     constructor(props) {
@@ -14,7 +16,7 @@ class Main extends React.Component {
     render() {
         return (
             <div>
-                {/* <BtnPost/> */}
+                <Navbar/>
                 {/* <Home/> */}
                 <Switch>
                     <Route exact path="/formCandidata" render={({ history }) => (<FormCandidata history={history} />)} />
@@ -22,6 +24,7 @@ class Main extends React.Component {
                     <Route exact path="/" render={() => (<Home />)} />
 
                 </Switch>
+                <Footer/>
             </div>
         )
     }
