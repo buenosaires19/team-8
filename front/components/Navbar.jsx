@@ -5,10 +5,10 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div>
-                <Link to='/' className='linkText' style={{ 'textDecorationLine': 'none' }} >Home</Link>
+                <Link to='/' className='linkText' style={{ 'textDecorationLine': 'none' }} >Inicio</Link>
             </div>
             <div>
-                <Link to='/about' className='linkText' style={{ 'textDecorationLine': 'none' }} > Sobre la Campaña </Link>
+                <a href='http://proyectos.chicasentecnologia.org/mujeresensteam' className='linkText' style={{ 'textDecorationLine': 'none' }} > Sobre la Campaña </a>
             </div>
             <div>
             <a href='https://proyectos.chicasentecnologia.org' className='linkText' style={{ 'textDecorationLine': 'none' }}>Proyectos</a>

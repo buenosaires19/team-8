@@ -4,7 +4,8 @@ import BtnPost from './headerBtn';
 import Destacada from './Destacada';
 import HomeCalendar from './formCalendar';
 import Finalistas from './Finalistas';
-import Navbar from './Navbar'
+
+
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Destacada />
             <Finalistas/>
             <HomeCalendar />
+
         </div>
     )
 }
