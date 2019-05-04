@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
 
+import { Link } from 'react-router-dom';
+
 const Destacada = () => {
 	return (
         <div className = 'divDestacada'>
@@ -10,7 +12,7 @@ const Destacada = () => {
         <h1 className = 'name'>Virginia Albarracin</h1>
         <h4 className ='field'>Microbiología</h4>
         <h3 className = 'quote'>"Haciendo ciencia e investigando sobre la vida de organismos vivos me siento una chica superpoderosa también!"</h3>
-        <Button variant="outline-primary" id = 'button'>CONOCELA!</Button>
+        <div id='button'><Link to='/singleParticipant' style={{ 'textDecorationLine': 'none' }}><Button variant="outline-primary" id = 'button'>CONOCELA!</Button></Link></div>
         </div>
         </div>
         

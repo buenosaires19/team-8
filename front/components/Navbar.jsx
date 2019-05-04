@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const SingleCandidate = () => {
+const Navbar = () => {
     return (
         <div className="navbar">
             <div>
@@ -24,4 +24,4 @@ const SingleCandidate = () => {
 }
 
 
-export default SingleCandidate;
+export default Navbar;

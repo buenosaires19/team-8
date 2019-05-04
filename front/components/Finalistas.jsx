@@ -64,7 +64,7 @@ class Finalistas extends React.Component {
             <Card>
                 <Image variant="top" src='https://proyectos.chicasentecnologia.org/mujeresensteam/assets/images/magdalena-on.jpg' className = 'cardImg' roundedCircle/>
                 <Card.Body>
-                    <Card.Title>Magdalena Moreno</Card.Title>
+                    <Card.Title>Ana Rios</Card.Title>
                     <Card.Text className = 'cardText'>
                     Estoy estudiando los territorios de las redes de trata con...
                     </Card.Text>
