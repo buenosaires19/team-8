@@ -35,6 +35,14 @@
     background-color: #5CCFC7;
     padding: 15px;
     width: 50%;
+    /* margin: 30px 10% 30px 35% ; */
+    border: 1px solid #5CCFC7;
+}
+
+#botonEstilo{
+    background-color: #5CCFC7;
+    padding: 15px;
+    width: 50%;
     margin: 30px 10% 30px 35% ;
     border: 1px solid #5CCFC7;
 }
