@@ -3,7 +3,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import FormPostulacion from '../components/formPostulacion';
-import Destacada from '../components/Destacada';
+import Home from '../components/Home';
 
 class Main extends React.Component {
     constructor(props) {
@@ -13,9 +13,11 @@ class Main extends React.Component {
     render() {
         return (
             <div>
+                {/* <BtnPost/> */}
+                {/* <Home/> */}
                 <Switch>
-                    <Route exact path="/formRegister" render={() => (<FormPostulacion />)} />
-                    <Route exact path="/destacada" render={() => (<Destacada />)} />
+                    <Route exact path="/formRegister" render={({history}) => (<FormPostulacion history={history} />)} />
+                    <Route exact path="/" render={() => (<Home />)} />
 
                 </Switch>
             </div>
