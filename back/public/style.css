@@ -35,6 +35,14 @@
     background-color: #5CCFC7;
     padding: 15px;
     width: 50%;
+    /* margin: 30px 10% 30px 35% ; */
+    border: 1px solid #5CCFC7;
+}
+
+#botonEstilo{
+    background-color: #5CCFC7;
+    padding: 15px;
+    width: 50%;
     margin: 30px 10% 30px 35% ;
     border: 1px solid #5CCFC7;
 }
@@ -161,4 +169,43 @@
 
 .formSpacing{
     margin: 15px;
+}
+.ProfileComplete {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center; 
+    padding-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+  }
+  .PicAndText {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    align-items: center;
+    justify-items: center; 
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    text-align : center;
+  }
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 65px;
+    background-color: #6300A8
+}
+.linkText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #608FC4;
+    /* height: 60px; */
+}
+.linkText:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff
 }
