@@ -8,8 +8,8 @@ app.set('port',process.env.PORT || 4200)
 
 app.listen(app.get('port'))
 
-app.get('/',(req,res)=>{
-    res.send('Hello World')
-})
 
 app.use(express.static(path.resolve(__dirname, 'public')));
+app.get('/*', function (req, res) {
+    res.sendFile(path.join(__dirname, './public/index.html'));
+  });
