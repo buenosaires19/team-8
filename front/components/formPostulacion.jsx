@@ -4,7 +4,7 @@ const formPostulacion = (props) => (
     <div >
         <div className='formStlyes'>
                 {/* <h1></h1> */}
-                <h3> Tus datos</h3>
+                <h3 className='h3Form'> Tus datos</h3>
                 <p> </p>
                 <div >
                     <label><span className='camposTag'> Nombre y apellido</span> </label>
@@ -16,7 +16,7 @@ const formPostulacion = (props) => (
                     <input className="form-control" type="email" name='emailPostulante' onChange={()=> console.log('  holaaaaaa')} />
                 </div>
 
-                <h3> Datos de la postulada</h3>
+                <h3 className='h3Form'> Datos de la postulada</h3>
                 <p> </p>
                 <div>
                     <label> <span className='camposTag'>Nombre y apellido </span> </label>
