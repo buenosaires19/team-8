@@ -100,10 +100,90 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var formPostulacion = function formPostulacion() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "HOLAAAAA"));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "formStlyes"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Tus datos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "camposTag"
+  }, " Nombre y apellido"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control",
+    type: "textarea",
+    rows: "1"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "camposTag"
+  }, "E-mail ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control",
+    type: "email",
+    name: "emailPostulante",
+    onChange: function onChange() {
+      return console.log('  holaaaaaa');
+    }
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Datos de la postulada"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "camposTag"
+  }, "Nombre y apellido "), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control",
+    type: "textarea",
+    rows: "1"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "camposTag"
+  }, "E-mail ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control",
+    type: "email"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "camposTag"
+  }, "Provincia")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    multiple: true,
+    className: "form-control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Buenos Aires "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Catamarca "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Chaco "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Chubut "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Ciudad Aut\xF3noma de Buenos Aires"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " C\xF3rdoba "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Corrientes "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Entre R\xEDos "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Formosa "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Jujuy "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " La Pampa "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " La Rioja "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Mendoza "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Misiones "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Neuqu\xE9n "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " R\xEDo Negro "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Salta "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " San Juan "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " San Luis "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Santa Cruz "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Santa Fe "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Santiago del Estero "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Tierra del Fuego "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, " Tucum\xE1n "))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "camposTag"
+  }, "Campo de desempe\xF1o"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control",
+    type: "textarea",
+    rows: "1"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "camposTag"
+  }, "M\xE1s informaci\xF3n"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "form-control",
+    type: "textarea",
+    style: {
+      height: '20vh'
+    }
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "centerButton"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    id: "botonEstilos",
+    onClick: function onClick() {
+      return alert('Se ha guardado la postulación correctamente!');
+    }
+  }, "POSTULA!"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (formPostulacion);
+
+/***/ }),
+
+/***/ "./front/components/headerBtn.jsx":
+/*!****************************************!*\
+  !*** ./front/components/headerBtn.jsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "gridHeader"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Grandes Mujeres"), " - Este mes es de la Mujeres en Biolog\xEDa! ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/formRegister"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    id: "botonEstilos"
+  }, " Postulate! ")));
+});
 
 /***/ }),
 
@@ -120,6 +200,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _components_formPostulacion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/formPostulacion */ "./front/components/formPostulacion.jsx");
+/* harmony import */ var _components_headerBtn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/headerBtn */ "./front/components/headerBtn.jsx");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -142,6 +223,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
 var Main =
 /*#__PURE__*/
 function (_React$Component) {
@@ -156,7 +238,7 @@ function (_React$Component) {
   _createClass(Main, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_headerBtn__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         exact: true,
         path: "/formRegister",
         render: function render() {
@@ -24605,7 +24687,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
