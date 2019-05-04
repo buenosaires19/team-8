@@ -35,7 +35,7 @@
     background-color: #5CCFC7;
     padding: 15px;
     width: 50%;
-    margin: 10px auto;
+    margin: 30px 10% 30px 35% ;
     border: 1px solid #5CCFC7;
 }
 
@@ -54,6 +54,7 @@
 
 .divDestacada{
     padding: 30px;
+    margin: 0px 20px;
     display: grid;
     grid-template-columns: 0.7fr 1fr;
     background-color: #FF5A5F;
@@ -105,17 +106,17 @@
 }
 .card{
     border: none;
-    background-color: rgb(75, 190, 137);
+    background-color: #5CCFC7;
 }
 .divCard{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center; 
-    background-color: rgb(75, 190, 137);
+    background-color: #5CCFC7;
     padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
-
+    margin: 20px;
 }
 .cards{
     width: 75%;
