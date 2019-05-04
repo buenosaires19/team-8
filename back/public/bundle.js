@@ -440,7 +440,9 @@ __webpack_require__.r(__webpack_exports__);
 var formPostulacion = function formPostulacion(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "formStlyes"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Tus datos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "h3Form"
+  }, " Tus datos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "camposTag"
   }, " Nombre y apellido"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     className: "form-control",
@@ -455,7 +457,9 @@ var formPostulacion = function formPostulacion(props) {
     onChange: function onChange() {
       return console.log('  holaaaaaa');
     }
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Datos de la postulada"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "h3Form"
+  }, " Datos de la postulada"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "camposTag"
   }, "Nombre y apellido "), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     className: "form-control",
@@ -27079,7 +27083,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
