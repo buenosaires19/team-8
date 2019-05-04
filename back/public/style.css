@@ -99,6 +99,22 @@
     font-size: 20px;
 
 }
+.areaCalendar{
+    font-size: 1.6em;
+    color: #6300a8;
+}
+
+.tercioCalendario{
+    text-align: center;
+}
+.calendarDiv{
+    padding: 20px;
+}
+
+.mesCalendar{
+    font-size: 1.3em;
+    color: #5CCFC7;
+}
 .cardImg{
     align-self: center;
     width: 200px;
